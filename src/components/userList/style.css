@@ -1,0 +1,56 @@
+.headline {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.headline h1 {
+    font-weight: 600;
+}
+table {
+    border-collapse: collapse;
+    margin: 50px auto 0 auto;
+}
+thead::after {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #e2e2e2;
+}
+thead th {
+    border: none;
+    padding-bottom: 20px;
+}
+tbody tr td:last-child {
+    padding-right: 100px;
+}
+th {
+    color: #b5b7c0;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: start;
+}
+td {
+    color: #292d32;
+    font-weight: 500;
+    font-size: 15px;
+}
+th,
+td {
+    padding: 10px 25px;
+}
+th:first-child,
+td:first-child {
+    padding-left: 0;
+}
+
+th,
+td {
+    border-bottom: 1px solid #e2e2e2;
+}
+.TableRow {
+    height: 70px;
+}
